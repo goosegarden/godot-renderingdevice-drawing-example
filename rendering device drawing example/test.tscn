@@ -1,0 +1,30 @@
+[gd_scene load_steps=6 format=3 uid="uid://cnoj0wfi6c5ks"]
+
+[ext_resource type="Script" path="res://test.gd" id="1_4umiy"]
+[ext_resource type="Script" path="res://mesh_object.gd" id="2_4agdl"]
+[ext_resource type="Script" path="res://cam_object.gd" id="3_kq4lq"]
+[ext_resource type="Script" path="res://point_light.gd" id="4_y5kaa"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_cebf6"]
+
+[node name="test04" type="Node"]
+script = ExtResource("1_4umiy")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1024.0
+offset_bottom = 1024.0
+texture = SubResource("ImageTexture_cebf6")
+
+[node name="mesh_object" type="Node" parent="."]
+script = ExtResource("2_4agdl")
+
+[node name="cam_object" type="Node" parent="."]
+script = ExtResource("3_kq4lq")
+
+[node name="point_light" type="Node" parent="."]
+script = ExtResource("4_y5kaa")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 318.0
+offset_bottom = 229.0
+text = "Use WASD to move the camera, left and right arrows to turn."

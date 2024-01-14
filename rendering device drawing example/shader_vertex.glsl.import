@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://dn2d0x301hf3x"
+path="res://.godot/imported/shader_vertex.glsl-a2469af80df7cb8c7dfdb1bf0ddbfe83.res"
+
+[deps]
+
+source_file="res://shader_vertex.glsl"
+dest_files=["res://.godot/imported/shader_vertex.glsl-a2469af80df7cb8c7dfdb1bf0ddbfe83.res"]
+
+[params]
+
