@@ -1,3 +1,3 @@
 A simple working example of using Godot's RenderingDevice and GLSL
 
-![What is this](thing.png)
+![What is this](./thing.png)
